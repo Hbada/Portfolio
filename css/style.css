@@ -12,7 +12,8 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.2rem;
 }
 
 a {
@@ -31,7 +32,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif; /* was Poppins - changed by Heidi */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -110,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a, #header #logo h1 a:hover, #hero p {
-  color: #999;
+  color: #fff;
 }
 
 #header #logo img {
@@ -204,8 +205,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#hero h3 {
+  color: #eee;           /* added by Heidi for consistency */
+}
+
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -302,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 13px;
@@ -573,9 +578,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: .8em;
 }
 
+#about .social-links {
+  text-align: center;
+}
+
+#about .social-links a {
+  padding-right: 10px;
+}
 
 /* Call To Action Section
 --------------------------------*/
