@@ -547,8 +547,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container .icon-box .icon {
   float: left;
   background: #fff;
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
